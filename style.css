@@ -30,7 +30,7 @@ body {
 }
 
 @font-face {
-    src: url(https://github.com/Neowrds/scoring-machine/blob/main/CursedTimerUlil-Aznm.ttf);
+    src: url("https://github.com/Neowrds/scoring-machine/blob/main/CursedTimerUlil-Aznm.ttf");
     font-family: cursed timer;
 }
 
