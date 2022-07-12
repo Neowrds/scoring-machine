@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCORING MACHINE</title>
+</head>
+
+<body>
+    <div class=" container">
+        <div class="dev">
+            <h3 style="margin-bottom: 3px; margin-top: 25px;">SCORING MACHINE</h3>
+            <h3 style="margin-top: 0px; font-weight:500; font-size:small; color: rgb(180, 180, 180);">Developed by
+                Neowrds</h3>
+        </div>
+
+        <div class="title">
+            <h3>HOME</h3>
+            <h3>GUEST</h3>
+        </div>
+
+        <div class="score-box">
+            <div class="blackscore">
+                <h1 id="home-score">0</h1>
+            </div>
+            <div class="blackscore">
+                <h1 id="guest-score">0</h1>
+            </div>
+        </div>
+
+        <div class="addscore-container">
+            <div class="score-button">
+                <div>
+                    <button class="plus-button" onclick="addHomeOne()">+1</button>
+                </div>
+                <div>
+                    <button class="plus-button" onclick="addHomeTwo()">+2</button>
+                </div>
+                <div>
+                    <button class="plus-button" onclick="addHomeThree()">+3</button>
+                </div>
+            </div>
+
+            <div class="score-button">
+                <div>
+                    <button class="plus-button" onclick="addGuestOne()">+1</button>
+                </div>
+                <div>
+                    <button class="plus-button" onclick="addGuestTwo()">+2</button>
+                </div>
+                <div>
+                    <button class="plus-button" onclick="addGuestThree()">+3</button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="minusscore-container">
+            <div class="score-button">
+                <div>
+                    <button class="minus-button" onclick="minusHomeOne()">-1</button>
+                </div>
+                <div>
+                    <button class="minus-button" onclick="minusHomeTwo()">-2</button>
+                </div>
+                <div>
+                    <button class="minus-button" onclick="minusHomeThree()">-3</button>
+                </div>
+            </div>
+
+            <div class="score-button">
+                <div>
+                    <button class="minus-button" onclick="minusGuestOne()">-1</button>
+                </div>
+                <div>
+                    <button class="minus-button" onclick="minusGuestTwo()">-2</button>
+                </div>
+                <div>
+                    <button class="minus-button" onclick="minusGuestThree()">-3</button>
+                </div>
+            </div>
+
+        </div>
+
+        <div>
+            <button class="reset-btn" onclick="resetScore()">RESET SCORE</button>
+        </div>
+        <script src="script.js"></script>
+    </div>
+</body>
+
+</html>

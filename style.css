@@ -1,0 +1,120 @@
+body {
+    margin: 20px 0 0 0;
+}
+
+.container {
+    background-color: #151D3B;
+    max-width: 350px;
+    margin: auto;
+    padding-bottom: 10px;
+    border-radius: 25px;
+
+}
+
+.dev {
+    display: grid;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.title {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px auto 0px auto;
+    padding-bottom: 0px;
+}
+
+@font-face {
+    src: url(/font/cursed-timer-ulil-font/CursedTimerUlil-Aznm.ttf);
+    font-family: cursed timer;
+}
+
+.score-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: #D82148;
+    font-family: cursed timer;
+}
+
+.addscore-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.minusscore-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.score-button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.plus-button {
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #6EBF8B;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 30px 5px 0px 5px;
+    border: none;
+}
+
+.minus-button {
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #D82148;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border-radius: 3px;
+    padding: 10px;
+    width: 35.2031px;
+    margin: 0px 5px 20px 5px;
+    border: none;
+}
+
+.blackscore {
+    background-color: rgba(0, 0, 0, 0.315);
+    margin: auto;
+    width: 100px;
+}
+
+.reset-btn {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    color: white;
+    border-radius: 2px;
+    background-color: #929280;
+}
+
+h1 {
+    text-align-last: center;
+    text-align: center;
+    margin: none;
+}
+
+h3 {
+    margin: 10px auto 20px auto;
+    padding-right: 20px;
+    padding-left: 20px;
+
+}
